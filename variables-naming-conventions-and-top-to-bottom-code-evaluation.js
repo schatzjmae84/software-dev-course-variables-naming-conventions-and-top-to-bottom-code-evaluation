@@ -24,9 +24,15 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let name = "Alice";
+let quantity = 5;
+let $dollarValue = 20;
+let purchase = [" milk", " bread", " Cheetos", " orange juice", " peanut butter"];
+let statement = name + " bought " + quantity + " items for $" + $dollarValue + ".";
 
-console.log(d);
+console.log(statement);
+
+let newStatement = name + " bought " + purchase + ".";
+
+console.log(newStatement)
+
